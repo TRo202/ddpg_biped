@@ -1,5 +1,7 @@
 # Reinforcement Learning for Bipedal walking robot.
-<p align="justify">This repository contains the <b>simulation architecture</b> based in <b>Gazebo</b> environment for implementing reinforcement learning algorithm, <b>DDPG</b> for generating bipedal walking patterns for the robot.</p>
+<p align="justify">Previously, this repository contains the <b>simulation architecture</b> based in <b>Gazebo</b> environment for implementing reinforcement learning algorithm, <b>DDPG</b> for generating bipedal walking patterns for the robot. </p>
+<p align="justify"> But here, I am trying to implement <b><a href="https://arxiv.org/pdf/1707.06347.pdf">PPO algorithm</a></b> with the help of <b><a href="https://www.tensorflow.org/agents">Tensorflow Agents</a></b>. </p>
+
 
 ## Planar Bipedal walking robot in Gazebo environment using Deep Deterministic Policy Gradient(DDPG).
 <p align="justify">The <strong>autonomous walking</strong> of the bipedal walking robot is achieved using reinforcement learning algorithm called <a href="https://github.com/nav74neet/ddpg_biped#references"><b>Deep Deterministic Policy Gradient(DDPG)<sup>1</sup></b></a>. DDPG utilises the <b>actor-critic learning framework</b> for <b>learning controls in continuous action spaces</b>.</p>
