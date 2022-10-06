@@ -2,19 +2,19 @@
 <p align="justify">Previously, this repository contains the <b>simulation architecture</b> based in <b>Gazebo</b> environment for implementing reinforcement learning algorithm, <b>DDPG</b> for generating bipedal walking patterns for the robot. </p>
 <p align="justify"> But here, I am trying to implement <b><a href="https://arxiv.org/pdf/1707.06347.pdf">PPO algorithm</a></b> with the help of <b><a href="https://www.tensorflow.org/agents">Tensorflow Agents</a></b>. </p>
 
+## Planar Bipedal walking robot in Gazebo environment using Proximal Policy Optimization (PPO).
+<p align="justify"> Still working on... </p>
 
-## Planar Bipedal walking robot in Gazebo environment using Deep Deterministic Policy Gradient(DDPG).
-<p align="justify">The <strong>autonomous walking</strong> of the bipedal walking robot is achieved using reinforcement learning algorithm called <a href="https://github.com/nav74neet/ddpg_biped#references"><b>Deep Deterministic Policy Gradient(DDPG)<sup>1</sup></b></a>. DDPG utilises the <b>actor-critic learning framework</b> for <b>learning controls in continuous action spaces</b>.</p>
-<p align="justify">The project details & the results of the experiment have been documented in the research manuscript, <b><a href="https://arxiv.org/abs/1807.05924v2">Bipedal walking robot using Deep Deterministic Policy Gradient</a></b></p>
-<p align="justify">This project was developed at the <a href="https://sites.google.com/site/compintellab/home"><b>Computational Intelligence Laboratory, IISc, Bangalore</b></a>.</p>
 
 ## What you need before starting (Dependencies & Packages):
-- <b><a href="http://releases.ubuntu.com/16.04/">Ubuntu 16.04</a></b>
-- <b><a href="http://wiki.ros.org/kinetic">ROS Kinetic</a></b>
+- <b><a href="http://releases.ubuntu.com/18.04/">Ubuntu 18.04</a></b>
+- <b><a href="http://wiki.ros.org/kinetic">ROS Melodic</a></b>
 - <b><a href="http://gazebosim.org/">Gazebo 7</a></b>
-- <b><a href="https://www.tensorflow.org/">TensorFlow: 1.1.0 [with GPU support]</a></b>
+- <b><a href="https://www.tensorflow.org/">TensorFlow: 2 </a></b>
+- <b><a href="https://www.tensorflow.org/">Tensor-probability: 0.8.0</a></b>
+- <b><a href="https://www.tensorflow.org/">TF-Agents: 0.3.0</a></b>
 - <b><a href="https://gym.openai.com/docs/">gym: 0.9.3</a></b>
-- <b>Python 2.7</b>
+- <b>Python 3.6.9</b>
 
 ## File setup:
 - ***walker_gazebo*** contains the robot model(both **.stl** files & **.urdf** file) and also the gazebo **launch** file.
